@@ -13,3 +13,5 @@ deplyment bla bla bla.
 
 ## Maintenance
 Maintenance will be done by support personnel.
+
+## Copyright

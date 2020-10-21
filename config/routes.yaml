@@ -1,0 +1,10 @@
+# This file is the entry point to configure your own HTTP routes.
+# Files in the routes/ subdirectory configure the routes for your dependencies.
+
+#index:
+#    path: /
+#    defaults: { _controller: 'App\Controller\DefaultController::index' }
+# the "app_lucky_number" route name is not important yet
+#micro-post:
+#    path: /micro-post
+#    controller: App\Controller\MicroPostController::index

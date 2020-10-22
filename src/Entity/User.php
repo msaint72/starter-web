@@ -2,7 +2,9 @@
 
 namespace App\Entity;
 
+use Doctrine\Common\Collections\ArrayCollection;
 use Doctrine\ORM\Mapping as ORM;
+use Symfony\Bridge\Doctrine\Validator\Constraints\UniqueEntity;
 use Symfony\Component\Security\Core\User\UserInterface;
 
 /**
@@ -36,6 +38,33 @@ class User implements UserInterface, \Serializable
      * @ORM\Column(type="string", length=50)
      */
     private $fullName;
+
+    private $plainPassword;
+
+    /**
+     * @ORM\OneToMany(targetEntity="App\Entity\Micropost",mappedBy="user")
+     */
+    private $posts;
+    public function __construct(){
+        $this->posts=new ArrayCollection();
+    }
+
+    /**
+     * @return mixed
+     */
+    public function getPlainPassword()
+    {
+        return $this->plainPassword;
+    }
+
+    /**
+     * @param mixed $plainPassword
+     */
+    public function setPlainPassword($plainPassword)
+    {
+        $this->plainPassword = $plainPassword;
+    }
+
 
     public function getRoles()
     {
@@ -135,5 +164,13 @@ class User implements UserInterface, \Serializable
     {
         return $this->fullName;
     }
-    
+
+    /**
+     * @return ArrayCollection
+     */
+    public function getPosts(): ArrayCollection
+    {
+        return $this->posts;
+    }
+
 }

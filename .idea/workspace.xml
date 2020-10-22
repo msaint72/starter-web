@@ -5,13 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="64f3a2ba-4d79-42cb-92d6-9a91c270d7d9" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Controller/SecurityController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/security/login.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Controller/RegisterController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Form/UserType.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/register/register.html.twig" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/packages/security.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/config/packages/security.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DataFixtures/AppFixtures.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/DataFixtures/AppFixtures.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Entity/User.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Repository/UserRepository.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Entity/MicroPost.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Entity/MicroPost.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Entity/User.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Entity/User.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -166,10 +165,10 @@
     </state>
     <state x="552" y="178" width="816" height="819" key="#Intentions/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1602856782223" />
     <state x="552" y="176" width="816" height="864" key="#Intentions/0.0.1920.1040/1920.0.1600.860@0.0.1920.1040" timestamp="1603348194702" />
-    <state x="753" y="229" key="#com.intellij.ide.util.MemberChooser" timestamp="1603353044058">
+    <state x="753" y="229" key="#com.intellij.ide.util.MemberChooser" timestamp="1603355566602">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="753" y="229" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040/1920.0.1600.860@0.0.1920.1040" timestamp="1603353044058" />
+    <state x="753" y="229" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040/1920.0.1600.860@0.0.1920.1040" timestamp="1603355566602" />
     <state x="690" y="275" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1603176991717">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -178,11 +177,11 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="740" y="261" key="FileChooserDialogImpl/0.0.1920.1040/1920.0.1600.860@0.0.1920.1040" timestamp="1603183308454" />
-    <state x="739" y="243" key="NewPhpClassDialog" timestamp="1603349175091">
+    <state x="739" y="243" key="NewPhpClassDialog" timestamp="1603353930509">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="739" y="243" key="NewPhpClassDialog/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1602856714313" />
-    <state x="739" y="243" key="NewPhpClassDialog/0.0.1920.1040/1920.0.1600.860@0.0.1920.1040" timestamp="1603349175091" />
+    <state x="739" y="243" key="NewPhpClassDialog/0.0.1920.1040/1920.0.1600.860@0.0.1920.1040" timestamp="1603353930509" />
     <state x="461" y="165" key="SettingsEditor" timestamp="1602855853170">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

@@ -18,4 +18,4 @@ Maintenance will be done by support personnel.
 
 
 ## Copyright
-copyrighted, my feature ranch
+copyrighted, my feature ranch reserved
